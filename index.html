@@ -1,0 +1,71 @@
+ <!----- developed by: tanvir----->
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Condensed' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+
+<div class="row">
+    <div class="boxcolumn">
+        <img src="banner.jpg" style="width: 100%;">
+    </div>
+
+    <div class="boxcolumn">
+        <div class="wrapper">
+            <div class="container">
+                <div class="clear-loading spinner">
+                 <span></span>
+                </div>
+            </div> 
+
+                    <!-- Titel change-->
+            <h2>We are Ready <span class="sub-message">and should be back online in:</span></h2>
+
+            <div class="clock">
+                <div class="column days">
+                    <div class="timer" id="days"></div>
+                    <div class="text">DAYS</div>
+                </div>
+                <div class="timer days">:</div>
+                <div class="column">
+                    <div class="timer" id="hours"></div>
+                    <div class="text">HOURS</div>
+                </div>
+                <div class="timer">:</div>
+                <div class="column">
+                    <div class="timer" id="minutes"></div>
+                    <div class="text">MINUTES</div>
+                </div>
+                <div class="timer">:</div>
+                <div class="column">
+                    <div class="timer" id="seconds"></div>
+                    <div class="text">SECONDS</div>
+                </div>
+            </div>
+        </div>  
+    </div><!--boxcolumn/-->
+</div><!--row-->
+
+
+<div class="updateText">
+    <marquee direction="scroll" scrollamount="12">WEW & BOLD Presents webinar on <b>"FRONT LINE FIGHTERS IN CORONA DAYS" </b> MODERATORS >> ISMAT JAHAN LISSA, Founding Member, Women Empowering Women( WEW) | Sifat  E Shehrin, Senior Software Engineer, BRAC IT Services Limited || PANELISTS >>  </b></marquee>
+</div>
+
+<script  src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.4/moment-timezone-with-data.js"></script>
+<script type="text/javascript" src="timer.js"></script>
+
+</body>
+</html>
